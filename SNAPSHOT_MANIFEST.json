@@ -1,0 +1,20 @@
+{
+  "prepared_before_publication": true,
+  "financial_evaluation_repeated": false,
+  "raw_data_included": false,
+  "files": {
+    ".gitattributes": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
+    ".gitignore": "30450d3db5a02a8c3f3cb512ba53dbb3a29d87318519251df7721413df564d75",
+    "AUDIT.md": "5b68e7f66147abd919dc96846a874e31a5261b311301d8bbaf1e3e80d4f138b0",
+    "plot_results.py": "7506bfd7c088951ecdae2156f521e2576275a439c05db9aec2749da31b6de959",
+    "PROTOCOL.md": "c91b809405f2bd70fcd5bea8dc41b391797130dc89b8480958b10ddc228b989c",
+    "queue_screen.py": "9717ba5b6acf48587a8995cdec403d33bca4460ee0e528260b6d52318f510395",
+    "README.md": "f78c454ef38608576f0cde69f29d3f9c0d02d595ddbe4f655e2ce54e9340c3d7",
+    "REPORT.md": "f94a07e7dcea2299216d2ab564afa5fea456d216983583aa2cc1aa83d20f5cb7",
+    "requirements.txt": "a938f9c000a03212f38b45b7b4a48371e2c8431edf29d8a6f56f70ce4c43a140",
+    "results.json": "1866bf0e551c8948d16ba37244c5f88add8f93a3bfb2bdaa59865e3948f15ca7",
+    "test_queue_screen.py": "8e154bb3a11fb58907aab302e9acaaea9dfe202ccef15ee0f324efc236d8d511",
+    "verify_snapshot.py": "3807fd416ddb736149f1d1a3aa53c82a4bf99ec796308e59d1c4804c9ae0a867",
+    "figures/conditional_margins.png": "ebbe6fe7c1fdc68d083cbe484b40f34d1719a7eefd3e04965ab51b15eeb5edff"
+  }
+}

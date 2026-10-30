@@ -1,0 +1,453 @@
+{
+  "classification": "CONDITIONAL_TRADE_MARGIN_NOT_FUNDED_PNL",
+  "disposition": "FIXED_REFERENCE_SCREEN_FAIL",
+  "scenarios": {
+    "zero_cost": {
+      "pressure": {
+        "trades": 117,
+        "net_units": -206100,
+        "gross_units": -206100,
+        "units_per_usd": 10000,
+        "late_exits": 40,
+        "exposure_unit_ns": 1451167665475472300,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 32,
+            "net_units": -68700
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 23,
+            "net_units": -41000
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 39,
+            "net_units": -61700
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 23,
+            "net_units": -34700
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 683,
+          "entry_canceled": 132,
+          "overlap": 0
+        }
+      },
+      "unfiltered": {
+        "trades": 494,
+        "net_units": -866700,
+        "gross_units": -866700,
+        "units_per_usd": 10000,
+        "late_exits": 157,
+        "exposure_unit_ns": 5804159246577816800,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 144,
+            "net_units": -289200
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 142,
+            "net_units": -246600
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 115,
+            "net_units": -191300
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 93,
+            "net_units": -139600
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 0,
+          "entry_canceled": 438,
+          "overlap": 0
+        }
+      },
+      "cash_reference_units": 0,
+      "exposure_matched_excess_units": {
+        "numerator": 153724487369759499825,
+        "denominator": 14510398116444542
+      }
+    },
+    "primary": {
+      "pressure": {
+        "trades": 117,
+        "net_units": -236520,
+        "gross_units": -206100,
+        "units_per_usd": 10000,
+        "late_exits": 40,
+        "exposure_unit_ns": 1451167665475472300,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 32,
+            "net_units": -77020
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 23,
+            "net_units": -46980
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 39,
+            "net_units": -71840
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 23,
+            "net_units": -40680
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 683,
+          "entry_canceled": 132,
+          "overlap": 0
+        }
+      },
+      "unfiltered": {
+        "trades": 494,
+        "net_units": -995140,
+        "gross_units": -866700,
+        "units_per_usd": 10000,
+        "late_exits": 157,
+        "exposure_unit_ns": 5804159246577816800,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 144,
+            "net_units": -326640
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 142,
+            "net_units": -283520
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 115,
+            "net_units": -221200
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 93,
+            "net_units": -163780
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 0,
+          "entry_canceled": 438,
+          "overlap": 0
+        }
+      },
+      "cash_reference_units": 0,
+      "exposure_matched_excess_units": {
+        "numerator": 178288114051690687715,
+        "denominator": 14510398116444542
+      }
+    },
+    "fee_double": {
+      "pressure": {
+        "trades": 117,
+        "net_units": -243540,
+        "gross_units": -206100,
+        "units_per_usd": 10000,
+        "late_exits": 40,
+        "exposure_unit_ns": 1451167665475472300,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 32,
+            "net_units": -78940
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 23,
+            "net_units": -48360
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 39,
+            "net_units": -74180
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 23,
+            "net_units": -42060
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 683,
+          "entry_canceled": 132,
+          "overlap": 0
+        }
+      },
+      "unfiltered": {
+        "trades": 494,
+        "net_units": -1024780,
+        "gross_units": -866700,
+        "units_per_usd": 10000,
+        "late_exits": 157,
+        "exposure_unit_ns": 5804159246577816800,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 144,
+            "net_units": -335280
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 142,
+            "net_units": -292040
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 115,
+            "net_units": -228100
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 93,
+            "net_units": -169360
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 0,
+          "entry_canceled": 438,
+          "overlap": 0
+        }
+      },
+      "cash_reference_units": 0,
+      "exposure_matched_excess_units": {
+        "numerator": 183956643285982500305,
+        "denominator": 14510398116444542
+      }
+    },
+    "slip_double": {
+      "pressure": {
+        "trades": 117,
+        "net_units": -259920,
+        "gross_units": -206100,
+        "units_per_usd": 10000,
+        "late_exits": 40,
+        "exposure_unit_ns": 1451167665475472300,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 32,
+            "net_units": -83420
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 23,
+            "net_units": -51580
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 39,
+            "net_units": -79640
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 23,
+            "net_units": -45280
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 683,
+          "entry_canceled": 132,
+          "overlap": 0
+        }
+      },
+      "unfiltered": {
+        "trades": 494,
+        "net_units": -1093940,
+        "gross_units": -866700,
+        "units_per_usd": 10000,
+        "late_exits": 157,
+        "exposure_unit_ns": 5804159246577816800,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 144,
+            "net_units": -355440
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 142,
+            "net_units": -311920
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 115,
+            "net_units": -244200
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 93,
+            "net_units": -182380
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 0,
+          "entry_canceled": 438,
+          "overlap": 0
+        }
+      },
+      "cash_reference_units": 0,
+      "exposure_matched_excess_units": {
+        "numerator": 197183211499330063015,
+        "denominator": 14510398116444542
+      }
+    },
+    "delay_stress": {
+      "pressure": {
+        "trades": 126,
+        "net_units": -252760,
+        "gross_units": -220000,
+        "units_per_usd": 10000,
+        "late_exits": 126,
+        "exposure_unit_ns": 2040465472465198100,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 37,
+            "net_units": -76520
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 28,
+            "net_units": -62680
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 37,
+            "net_units": -71820
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 24,
+            "net_units": -41740
+          }
+        ],
+        "counts": {
+          "stale_signal": 477,
+          "no_signal": 683,
+          "entry_canceled": 123,
+          "overlap": 0
+        }
+      },
+      "unfiltered": {
+        "trades": 504,
+        "net_units": -1012140,
+        "gross_units": -881100,
+        "units_per_usd": 10000,
+        "late_exits": 504,
+        "exposure_unit_ns": 8333693729449810800,
+        "blocks": [
+          {
+            "start_seconds": 34500,
+            "end_seconds": 37800,
+            "trades": 150,
+            "net_units": -319400
+          },
+          {
+            "start_seconds": 37800,
+            "end_seconds": 41400,
+            "trades": 142,
+            "net_units": -290620
+          },
+          {
+            "start_seconds": 41400,
+            "end_seconds": 45000,
+            "trades": 119,
+            "net_units": -234640
+          },
+          {
+            "start_seconds": 45000,
+            "end_seconds": 48600,
+            "trades": 93,
+            "net_units": -167480
+          }
+        ],
+        "counts": {
+          "stale_signal": 474,
+          "no_signal": 0,
+          "entry_canceled": 428,
+          "overlap": 3
+        }
+      },
+      "cash_reference_units": 0,
+      "exposure_matched_excess_units": {
+        "numerator": -34323086462340477395,
+        "denominator": 6944744774541509
+      }
+    }
+  },
+  "financial_family": "E18",
+  "verified_edge": false,
+  "confirmation_authorized": false,
+  "empirical_oos": false,
+  "source": {
+    "development_rows": 68087,
+    "completed_groups": 61994,
+    "boundary_time_only_peek": true,
+    "boundary_book_read": false
+  },
+  "date": "2012-06-21",
+  "symbol": "AAPL"
+}

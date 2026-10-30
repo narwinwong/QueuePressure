@@ -1,0 +1,17 @@
+# Protocol disclosure copy
+
+This public document summarizes the original preregistration; it is not a new preregistration. Original protocol/allocation commit: 6e4686e. Tied-clock clarification: 6f63fed. Independently reviewed implementation committed before outcomes: e77b730. Frozen outcome publication: 579dfd4. These identifiers document provenance; private research history is not included here.
+
+The fixed source is the official public AAPL minimum-depth familiarization ZIP for June 21, 2012, SHA256 b50994786f2996ae3c349d6b11a07b412c981a417a17ece44f068f9e12e45058. Selection was alphabetical among the offered symbols before prices. Full-day technical QC occurred before economics. Published literature and a same-sample third-party search excerpt were already exposed; no pristine-acquisition or novelty claim is made.
+
+Development is strictly before source time 48,600 seconds. Read only the first boundary message timestamp, not its other fields or paired book. Later data remains economically sealed. Decisions: source seconds 34,500 through 48,580 inclusive, step ten, with earlier five-minute warmup. Row cap 500,000. Stop for malformed values, reversed clocks or missing exit before the boundary; do not repair, drop a loss or open the seal. Whole equal-clock groups use final states and become ineligible if any constituent is ineligible. Halts remain blocked through quoting resume until trading resume. Legitimate empty/dummy/locked/crossed states are ineligible.
+
+Signal: strictly prior completed group, age at most one second, positive quantities, bid quantity at least four times ask quantity. Long one share only. No fitting or sign/horizon selection. First completed group at/after entry arrival must be eligible and within 500 ms; otherwise cancel before entry. Exit arrival is actual entry time plus one second plus the same order delay. Use first eligible completed group thereafter, retaining waiting losses and late-exit flags. No exit before seal means the entire run stops. Skip decisions at or before the prior exit.
+
+Fixed scenarios (delay ms, per-side fee USD, per-side adverse charge USD): zero additional cost (250, 0, 0); primary (250, .003, .01); double fee (250, .006, .01); double adverse charge (250, .003, .02); delay stress (1000, .003, .01). These are assumptions. Compute exact integer price units at 10,000 per USD: exit bid minus entry ask minus twice fee and adverse charge. Quotes already pay the spread.
+
+Controls: cash zero, unchanged unfiltered entry grid, and an ex-post exposure-scaled unfiltered reference. Exposure is sum(entry ask times actual holding duration). Scaling must not use exit profits. It is not a fractional-share executable policy.
+
+Primary support requires at least thirty trades and five in each fixed block: [09:35,10:30), [10:30,11:30), [11:30,12:30), [12:30,13:30). Promotion also requires positive total/mean, positive exposure-matched excess, positive margins in all four blocks and no primary holding duration above two seconds. A positive screen would still be unqualified, with no automatic confirmation authorization. One day is insufficient for market inference. No resampling, p-values, funded returns or prop payouts are inferred.
+
+One permanent-claim economic run was authorized after independent preread and implementation commit. Nineteen synthetic controls passed privately, including production guards omitted from the public pure-engine extraction. Do not use this disclosure to rerun or tune the original study or open its sealed later session.
